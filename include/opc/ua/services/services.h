@@ -54,7 +54,7 @@ struct RemoteSessionParameters
   Duration Timeout;
 };
 
-class Services : private Common::Interface
+class FREEOPCUA_EXPORT Services : private Common::Interface
 {
 public:
   DEFINE_CLASS_POINTERS(Services)

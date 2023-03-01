@@ -61,7 +61,7 @@ private:
 };
 
 
-class UaClient
+class FREEOPCUA_EXPORT UaClient
 {
 public:
   /// @brief create high level client

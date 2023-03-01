@@ -10,6 +10,8 @@
 
 #pragma once
 
+#include <opc/common/export.h>
+
 #include <opc/ua/protocol/message_identifiers.h>
 #include <opc/ua/protocol/object_ids.h>
 #include <opc/ua/protocol/expanded_object_ids.h>
@@ -41,7 +43,7 @@ enum NodeIdEncoding : uint8_t
 
 struct ExpandedNodeId;
 
-struct NodeId
+struct FREEOPCUA_EXPORT NodeId
 {
   NodeIdEncoding Encoding;
   std::string NamespaceURI;

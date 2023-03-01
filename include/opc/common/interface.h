@@ -11,10 +11,12 @@
 #ifndef __OPC_UA_INTERFACE_BASE_H__
 #define __OPC_UA_INTERFACE_BASE_H__
 
+#include <opc/common/export.h>
+
 namespace Common
 {
 
-class Interface
+class FREEOPCUA_EXPORT Interface
 {
 protected:
   Interface() {}

@@ -39,7 +39,7 @@ public:
 /// Node are usually not create directly but obtained through call
 /// to GetRootNode of GetObjectsNode on server or client side
 
-class Node
+class FREEOPCUA_EXPORT Node
 {
 public:
   // Creating Root Node.
