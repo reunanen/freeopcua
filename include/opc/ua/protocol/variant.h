@@ -155,7 +155,7 @@ public:
 };
 
 
-class Variant
+class FREEOPCUA_EXPORT Variant
 {
   boost::any Value;
 
